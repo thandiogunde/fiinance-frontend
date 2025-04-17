@@ -32,7 +32,7 @@ const BudgetCalculator = ({ user, onLogout }) => {
 
      // Save to MongoDB
   try {
-    await axios.post('http://localhost:5050/api/budget/save', {
+    await axios.post('https://finance-backend-gilt.vercel.app/api/budget/save', {
       userId: user._id,
       income,
       expenses,

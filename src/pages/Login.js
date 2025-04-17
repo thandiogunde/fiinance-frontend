@@ -22,7 +22,7 @@ const Login = ({ setUser }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5050/api/login', loginData);
+      const res = await axios.post('https://finance-backend-gilt.vercel.app/api/login', loginData);
       console.log("Login response:", res.data);
       alert(res.data.message || "Logged in!");
       
