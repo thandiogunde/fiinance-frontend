@@ -1,0 +1,103 @@
+.admin-banner {
+    background-color: #b1dfe6;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #073c4b;
+    box-shadow: #073c4b 0px 0px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .admin-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .admin-banner p {
+    font-size: 1.2rem;
+  }
+  
+  .chart-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .budget-total {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .add-entry-btn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #0b4c5f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-entry-btn:hover {
+    background-color: goldenrod;
+  }
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .charts-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .chart-box {
+    flex: 1;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #c2eaef;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .chart-box p {
+    margin: 0.5rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .chart-box button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #0b4c5f;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chart-box button:hover {
+    background-color: goldenrod;
+  }
+  

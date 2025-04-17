@@ -1,0 +1,65 @@
+.learning-hub {
+    padding: 2rem;
+    text-align: center;
+    color: #0b4c5f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .card {
+    background-color: #b1dfe6;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: #0b4c5f 0px 0px 10px;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+
+  .learning-hub h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card img {
+    height: 90px;
+  }
+  
+  .learn-btn {
+    padding: 0.8rem 2rem;
+    background-color: #0b4c5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .learn-btn:hover {
+    background-color: goldenrod;
+  }
+  
+  .read-more-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0b4c5f;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .read-more-link:hover {
+    border-bottom: 2px solid #0b4c5f;
+  }

@@ -1,0 +1,41 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b1dfe6;
+    padding: 2rem;
+    box-shadow: #0b4c5f 0px 0px 15px;
+  }
+  
+  .banner-text {
+    max-width: 50%;
+    color: #0b4c5f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0b4c5f;
+  }
+  
+  .banner-btn {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #0b4c5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #0b4c5f 0px 0px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .banner-btn:hover {
+    background-color: goldenrod;
+  }
+  
+  .banner-image img {
+    width: 340px;
+    height:auto;
+  }
+  

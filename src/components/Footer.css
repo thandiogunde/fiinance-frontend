@@ -1,0 +1,29 @@
+.footer {
+    background-color: #e6b800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 0rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .footer-left {
+    font-weight: bold;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .footer-right a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
+

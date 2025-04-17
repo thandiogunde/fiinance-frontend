@@ -1,0 +1,148 @@
+.register-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .register-form {
+    flex: 1;
+    padding: 3rem;
+    background-color: white;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .register-logo {
+    height: 70px;
+    margin-bottom: 1rem;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: #0b4c5f;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: goldenrod;
+  }
+  
+  .register-form h1 {
+    font-size: 2rem;
+    color: #0b4c5f;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .register-form label {
+    display: block;
+    margin: 1rem 0 0.3rem;
+    font-weight: bold;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .btn-main {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0b4c5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .btn-google {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #18688c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .existing {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .existing a {
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-illustration {
+    flex: 1;
+    background-color: #b1dfe6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register-illustration img {
+    width: 550px;
+    height:auto;
+  }
+  
+  .strength-bar {
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+  }
+  
+  .strength-bar.weak {
+    background-color: red;
+    width: 33%;
+  }
+  
+  .strength-bar.medium {
+    background-color: orange;
+    width: 66%;
+  }
+  
+  .strength-bar.strong {
+    background-color: green;
+    width: 105%;
+  }
+
+  .password-rules {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .password-rules li {
+    margin-bottom: 0.3rem;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .invalid {
+    color: rgb(189, 189, 189);
+  }
+  
+  
+  
